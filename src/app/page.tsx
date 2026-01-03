@@ -9,12 +9,12 @@ export default function Home() {
       
       <Image
         src="/bg.png"
-        alt="Cutlist Optimizer Logo"
+        alt="Background Image of marbles and granites"
         fill
-        className=""
+        className="object-cover"
       />
-      <div className="absolute w-2/5 h-full flex flex-col justify-center px-16 space-y-5">
-        <h3 className="text-[#1B795D] font-extrabold text-4xl">Cutlist Optimizer for Granite & Marble</h3>
+      <div className="absolute mx-5 md:w-2/5 h-fit flex flex-col justify-center px-5 md:px-16 py-16 space-y-5 bg-white/50 rounded-md">
+        <h3 className="text-[#1B795D] font-extrabold text-2xl md:text-4xl">Cutlist Optimizer for Granite & Marble</h3>
         <ul className="text-black/50 text-sm">
           <li>Plan your slab cuts with precision.</li>
           <li>Reduce material waste, save cost, and generate accurate cutting layouts in minutes.</li>

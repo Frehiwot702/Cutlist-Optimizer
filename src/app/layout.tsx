@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Cutlist Optimizer",
-  description: "",
+  description: "Cutlist Optimizer is an online tool for woodworkers, metal fabricators, and other trades that minimizes material waste by calculating the most efficient way to cut required pieces from available stock sheets",
 };
 
 export default function RootLayout({
